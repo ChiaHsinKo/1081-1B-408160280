@@ -1,0 +1,48 @@
+body{
+    width: 90%;
+    background-color: antiquewhite;
+    margin: 20px;
+}
+#heading{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+}
+#menu{
+    width: 20%;
+    height: 400px;
+    background-color: #92A8D1;
+    float: left;
+}
+#section{
+    width: 80%;
+    height: 400px;
+    background-color: #F7CAC9;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+#footer{
+    width: 100%;
+    height: 70px;
+    background-color: #E69966;
+}
+#heading nav li{
+    list-style-type: none; 
+    float: left;
+    margin: 5px;
+    font-size: 15px;
+}
+#heading nav a{
+    background-color: darksalmon;
+    padding: 5px;
+}
+#heading nav a:hover{
+    background-color: crimson;
+    padding: 5px;
+}
+#heading nav ul{
+    padding: 0px;
+}
